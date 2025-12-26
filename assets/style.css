@@ -1,0 +1,70 @@
+.hero-container {
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(0,180,255,0.15), rgba(0,0,0,0.4));
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0,180,255,0.10);
+}
+
+.hero-title {
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.hero-subtitle {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 350px;
+    border-radius: 22px;
+    margin-top: 25px;
+    box-shadow: 0 0 30px rgba(0,180,255,0.25);
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.info-card {
+    width: 260px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #1e1e1e;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+.info-card h3 {
+    color: #00b4ff;
+    margin-bottom: 8px;
+}
+
+.info-card p {
+    color: #aaaaaa;
+    font-size: 15px;
+}
+lottie-player {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(0,180,255,0.15), rgba(0,0,0,0.4));
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0,180,255,0.10);
+}
+
+.hero-container canvas {
+    margin-bottom: 10px !important; /* animation spacing */
+}
